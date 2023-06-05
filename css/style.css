@@ -48,4 +48,75 @@ header {
 .menu .navbar ul li {
     position: relative;
     float: left;
+    left: 20%;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    font-weight: 600;
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    width: 550px;
+    z-index: -1;
+    right: 0;
+    margin-top: 100px;
+    right: 0px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-text h1 {
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    color: rgb(77, 18, 132);
+    margin-bottom: 25px;
+}
+
+.header-text p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.header-text h1 {
+    margin-bottom: 30px;
+    border-top: 10px;
+}
+
+.header-img img {
+    width: 650px;
+
+}
+
+.background {
+    margin-top: 850px;
+}
+
+.sq {
+    width: 1680px;
+    height: 1050px;
+    left: 10px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
 }
