@@ -10,8 +10,8 @@
 
 :root {
     --main-color:#ece5e2;
-    --text-color:#84AFF;
-    --bg-color:#84AFF;
+    --text-color:#84AF;
+    --bg-color:#000;
     --big-font:5rem;
     --h2-font:2.25rem;
     --p-font:0.9rem;
@@ -23,4 +23,12 @@
 body{
     color: var(--text-color);
     background: var(--bg-color);
+}
+header {
+    position: fixed;
+    top:300;
+    right: 10;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
 }
