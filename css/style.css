@@ -86,8 +86,8 @@ header .navbar-ul {
     width: 500px;
     z-index: -1;
     right: 0;
-    margin-top: 100px;
-    right: 30px;
+    margin-top: 150px;
+    right: 45px;
 }
 
 .header-info {
@@ -107,7 +107,7 @@ header .navbar-ul {
 .content {
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 30%;
     transform: translate(-50%);
     font-size: 35px;
 }
