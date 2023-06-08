@@ -31,6 +31,7 @@ header .navbar-ul {
     list-style: none;
 }
 
+
 .logo {
     color: 844AFF;
     font-size: 40px;
@@ -39,16 +40,6 @@ header .navbar-ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.header {
-    display: flex;
-    position: absolute;
-    margin: 0 auto;
-    padding: 13 px 0;
-    top: 40px;
-    position: relative;
-    border-radius: white;
 }
 
 .menu {
@@ -76,6 +67,38 @@ header .navbar-ul {
     font-weight: 600;
     color: black;
 }
+
+/*Events*/
+section {
+    width: 80%; 
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
 
 #menu {
     display: none;
@@ -128,10 +151,6 @@ header .navbar-ul {
     width: 50%;
 }
 
-.header-text h1 {
-    margin-bottom: 30px;
-    border-top: 10px;
-}
 
 .header-img img {
     width: 650px;
@@ -153,7 +172,3 @@ body {
     justify-content: center;
 }
 
-.navbar-ul li a: hover {
-    color: #00bf9f;
-    transition: .3s;
-}
