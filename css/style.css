@@ -60,11 +60,13 @@ nav{
 
 nav > a{
     color: white;
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
     margin-right: 20px;
     font-size: 24px;
 }
+
+
 header .textos-header{
     margin-top: 10%;
     display: flex;
@@ -78,16 +80,20 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 96px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
     bottom: 90%;
 }
+span{
+    color: #844AFF;
+}
 
 .textos-header h2{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
     color: white;
 }
+
 
 nav > a:hover{
     text-decoration: underline;
@@ -97,4 +103,22 @@ nav > a:hover{
     position:absolute;
     bottom: 0;
     width: 100%;
+}
+/* About us */
+.contenedor-sobre-mi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 60%;
+    
+}
+.face{
+    width: 400px;
+    border-radius: 3rem 3rem 3rem 3rem;
+    height: 300px;
+}
+.sobre-mi .contenido-textos{
+    width: 48%;
+
 }
