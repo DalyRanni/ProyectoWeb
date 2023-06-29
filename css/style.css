@@ -162,8 +162,8 @@ nav > a:hover{
 
 }
 .btn{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: #3E5151;
     border-radius: 50%;
 }
@@ -180,6 +180,7 @@ nav > a:hover{
     overflow: hidden;
     scroll-behavior: smooth;
 }
+
 .carrusel-img2 img{
     border-radius: 2rem 2rem 2rem 2rem;
     width: cover;
@@ -187,8 +188,8 @@ nav > a:hover{
     margin: 10px;
 }
 .btn2{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: #3E5151;
     border-radius: 50%;
 }
@@ -196,4 +197,20 @@ nav > a:hover{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    height: 10vw;
+    width: auto;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: left;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: 30px;
+    bottom: 10%;
+    margin-bottom: 10px;
 }
